@@ -1,0 +1,5 @@
+databases:
+- Test_DB
+
+scripts:
+- C:\Scripts\stored_proc.prc
