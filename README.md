@@ -6,14 +6,14 @@ This python script will generate an SQL script that will run in SQL Server Manag
 
 You need to have python installed with PyYAML
 
+[Download script with config file.(https://raw.githubusercontent.com/AnthonyStiles/MultiDBScriptGenerator/master/GenerateMultiDBScript.zip)
 
+Ensure the config file is in the same directory as the script.
 
-Download the script and the config file (the config file needs to be in the same directory as the script)
+Change the contents of the config file based on your requirements.
 
-Change the contents of the config file based on your requirements
+Run the script.
 
-Run the script
+It should generate a file in the same directory as the script.
 
-It should generate a file in the same directory as the script
-
-Open the script in SQL and run using SQLCMD Mode
+Open the script in SQL and run using SQLCMD Mode.
