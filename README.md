@@ -12,7 +12,7 @@ Ensure the config file is in the same directory as the script.
 
 Change the contents of the config file based on your requirements.
 
-Run the script.
+Run the script using the batch file.
 
 It should generate a file in the same directory as the script.
 
