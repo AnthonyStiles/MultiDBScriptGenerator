@@ -16,4 +16,4 @@ Run the script.
 
 It should generate a file in the same directory as the script.
 
-Open the script in SQL and run using SQLCMD Mode.
+Open the script in SQL Server Management Studio and run using SQLCMD Mode.

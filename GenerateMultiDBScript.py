@@ -10,7 +10,7 @@ with open(config_file_name, 'r') as config_file:
 databases = config['databases']
 scripts = config['scripts']
 
-print(f'FOUND {len(databases)} database(s) AND {len(scripts)} script(s)')
+print(f'FOUND {len(databases)} DATABASE(S) AND {len(scripts)} SCRIPT(S)')
 
 print('GENERATING SCRIPT...')
 
