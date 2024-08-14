@@ -1,2 +1,0 @@
-python GenerateMultiDBScript.py
-pause
