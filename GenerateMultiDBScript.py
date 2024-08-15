@@ -1,7 +1,7 @@
 import os
 import yaml
 
-print('GETTING CONFIG FILE...')
+print('CHECKING CONFIG FILE...')
 config_file_name = 'config.yaml'
 
 with open(config_file_name, 'r') as config_file:
@@ -19,6 +19,7 @@ script_name = 'output.sql'
 with open (script_name, 'w') as output:
     for db in databases:
         output.write(f'USE {db}\n\n')
+        output.write(f'GO\n\n')
         for script in scripts:
             output.write(f':r {script}')
         output.write('\n\n\n')
@@ -27,3 +28,5 @@ with open (script_name, 'w') as output:
     output.write("--You're welcome...")
 
 print('DONE!')
+
+input()
