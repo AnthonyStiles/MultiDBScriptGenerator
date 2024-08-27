@@ -21,8 +21,8 @@ with open (script_name, 'w') as output:
         output.write(f'USE {db}\n\n')
         output.write(f'GO\n\n')
         for script in scripts:
-            output.write(f':r {script}')
-        output.write('\n\n\n')
+            output.write(f':r {script}\n')
+        output.write('\n\n')
 
     output.write("--Now just open this in SQL Server Management Studio, Click the Query tab and select SQLCMD Mode (its near the bottom) and send it!\n")
     output.write("--You're welcome...")

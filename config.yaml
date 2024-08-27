@@ -1,5 +1,7 @@
 databases:
 - Test_DB
+- Test2_DB
 
 scripts:
 - C:\Scripts\stored_proc.prc
+- C:\Scripts\stored_proc2.prc

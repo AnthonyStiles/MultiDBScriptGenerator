@@ -2,3 +2,4 @@ output.sql
 configexamples
 build
 GenerateMultiDBScript.spec
+dist
